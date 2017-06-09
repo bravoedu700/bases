@@ -1,8 +1,4 @@
-<?php
-include('class/clase_db.php');
-$conexion = new DB();
-$conexion->conectar();
-?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -33,7 +29,7 @@ $conexion->conectar();
           <a  id="Inicio" class="active" href="index.php" >Inicio</a>
         </li>
         <li>
-          <a id="Competidores" href="competidores.php" >Competencia</a>
+          <a id="Competidores" href="competidores.php" >Competencias</a>
         </li>
         <li>
           <a id="Deportista" href="deportista.php" >Deportista</a>
@@ -45,7 +41,7 @@ $conexion->conectar();
     </div>
   </nav>
   <main class="container">
-     <h1>Inicio</h1>
+     <h1>Competencias</h1>
      <table class="table">
         <caption>Optional table caption.</caption>
         <thead>
@@ -64,5 +60,6 @@ $conexion->conectar();
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <!-- Nuestros Js -->
+
 </body>
 </html>
